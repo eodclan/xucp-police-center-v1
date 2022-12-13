@@ -16,12 +16,13 @@ This system is currently under development!
 
   1. Login & Register
   2. Dashboard
-  3. Sprach System ( English & German ) 
-  4. Einwohnerdatenbank 
-  5. Fahndungen 
-  6. Ermittlungen 
+  3. Language System ( English & German ) 
+  4. Resident Database 
+  5. Wanteds 
+  6. Act Files 
   7. Fraktion Logs
-  8. Einstellungen
+  8. Road Traffic Office
+  9. Site Settings
 
  
 and more... 
