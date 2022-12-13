@@ -20,9 +20,8 @@ This system is currently under development!
   4. Einwohnerdatenbank 
   5. Fahndungen 
   6. Ermittlungen 
-  7. Officer 
-  8. Fraktion Logs
-  9. Einstellungen
+  7. Fraktion Logs
+  8. Einstellungen
 
  
 and more... 
