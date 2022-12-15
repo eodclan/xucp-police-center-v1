@@ -4,7 +4,7 @@
 // ************************************************************************************//
 // * Author: DerStr1k3r
 // ************************************************************************************//
-// * Version: 1.0
+// * Version: 1.1
 // *
 // * Copyright (c) 2022 DerStr1k3r. All rights reserved.
 // ************************************************************************************//
@@ -33,7 +33,7 @@ function site_footer(): void
                             </div>
                             <div class='col-sm-6'>
                                 <div class='text-sm-end d-none d-sm-block'>
-                                    xUCP Police Center Free V1.0
+                                    xUCP Police Center Free V1.1
                                 </div>
                             </div>
                         </div>

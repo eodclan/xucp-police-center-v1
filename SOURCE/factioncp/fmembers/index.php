@@ -54,7 +54,7 @@ echo "
                                                                 <div class='mx-auto mb-4'>
                                                                     <img src='".htmlentities($blog_status['user_avatar'], ENT_QUOTES, 'UTF-8')."' alt='' class='avatar-xl rounded-circle img-thumbnail'>
                                                                 </div>
-                                                                <h5 class='font-size-16 mb-1'><a href='#' class='text-dark'>".htmlentities($blog_status['username'], ENT_QUOTES, 'UTF-8')."</a></h5>
+                                                                <h5 class='font-size-16 mb-1'><a href='#' class='text-dark'>".htmlentities($blog_status['charname'], ENT_QUOTES, 'UTF-8')."</a></h5>
                                                                 <p class='text-muted mb-2'>".format_comment(htmlentities($blog_status['user_sig'], ENT_QUOTES, 'UTF-8'))."</p>   
                                                             </div>
                                                         </div>
@@ -89,7 +89,7 @@ echo "
                                                                 <div class='mx-auto mb-4'>
                                                                     <img src='".htmlentities($blog_status['user_avatar'], ENT_QUOTES, 'UTF-8')."' alt='' class='avatar-xl rounded-circle img-thumbnail'>
                                                                 </div>
-                                                                <h5 class='font-size-16 mb-1'><a href='#' class='text-dark'>".htmlentities($blog_status['username'], ENT_QUOTES, 'UTF-8')."</a></h5>
+                                                                <h5 class='font-size-16 mb-1'><a href='#' class='text-dark'>".htmlentities($blog_status['charname'], ENT_QUOTES, 'UTF-8')."</a></h5>
                                                                 <p class='text-muted mb-2'>".format_comment(htmlentities($blog_status['user_sig'], ENT_QUOTES, 'UTF-8'))."</p>   
                                                             </div>
                                                         </div>
@@ -124,7 +124,7 @@ echo "
                                                                 <div class='mx-auto mb-4'>
                                                                     <img src='".htmlentities($blog_status['user_avatar'], ENT_QUOTES, 'UTF-8')."' alt='' class='avatar-xl rounded-circle img-thumbnail'>
                                                                 </div>
-                                                                <h5 class='font-size-16 mb-1'><a href='#' class='text-dark'>".htmlentities($blog_status['username'], ENT_QUOTES, 'UTF-8')."</a></h5>
+                                                                <h5 class='font-size-16 mb-1'><a href='#' class='text-dark'>".htmlentities($blog_status['charname'], ENT_QUOTES, 'UTF-8')."</a></h5>
                                                                 <p class='text-muted mb-2'>".format_comment(htmlentities($blog_status['user_sig'], ENT_QUOTES, 'UTF-8'))."</p>   
                                                             </div>
                                                         </div>
@@ -159,7 +159,7 @@ echo "
                                                                 <div class='mx-auto mb-4'>
                                                                     <img src='".htmlentities($blog_status['user_avatar'], ENT_QUOTES, 'UTF-8')."' alt='' class='avatar-xl rounded-circle img-thumbnail'>
                                                                 </div>
-                                                                <h5 class='font-size-16 mb-1'><a href='#' class='text-dark'>".htmlentities($blog_status['username'], ENT_QUOTES, 'UTF-8')."</a></h5>
+                                                                <h5 class='font-size-16 mb-1'><a href='#' class='text-dark'>".htmlentities($blog_status['charname'], ENT_QUOTES, 'UTF-8')."</a></h5>
                                                                 <p class='text-muted mb-2'>".format_comment(htmlentities($blog_status['user_sig'], ENT_QUOTES, 'UTF-8'))."</p>   
                                                             </div>
                                                         </div>
@@ -194,7 +194,7 @@ echo "
                                                                 <div class='mx-auto mb-4'>
                                                                     <img src='".htmlentities($blog_status['user_avatar'], ENT_QUOTES, 'UTF-8')."' alt='' class='avatar-xl rounded-circle img-thumbnail'>
                                                                 </div>
-                                                                <h5 class='font-size-16 mb-1'><a href='#' class='text-dark'>".htmlentities($blog_status['username'], ENT_QUOTES, 'UTF-8')."</a></h5>
+                                                                <h5 class='font-size-16 mb-1'><a href='#' class='text-dark'>".htmlentities($blog_status['charname'], ENT_QUOTES, 'UTF-8')."</a></h5>
                                                                 <p class='text-muted mb-2'>".format_comment(htmlentities($blog_status['user_sig'], ENT_QUOTES, 'UTF-8'))."</p>   
                                                             </div>
                                                         </div>
@@ -229,7 +229,7 @@ echo "
                                                                 <div class='mx-auto mb-4'>
                                                                     <img src='".htmlentities($blog_status['user_avatar'], ENT_QUOTES, 'UTF-8')."' alt='' class='avatar-xl rounded-circle img-thumbnail'>
                                                                 </div>
-                                                                <h5 class='font-size-16 mb-1'><a href='#' class='text-dark'>".htmlentities($blog_status['username'], ENT_QUOTES, 'UTF-8')."</a></h5>
+                                                                <h5 class='font-size-16 mb-1'><a href='#' class='text-dark'>".htmlentities($blog_status['charname'], ENT_QUOTES, 'UTF-8')."</a></h5>
                                                                 <p class='text-muted mb-2'>".format_comment(htmlentities($blog_status['user_sig'], ENT_QUOTES, 'UTF-8'))."</p>   
                                                             </div>
                                                         </div>
@@ -264,7 +264,7 @@ echo "
                                                                 <div class='mx-auto mb-4'>
                                                                     <img src='".htmlentities($blog_status['user_avatar'], ENT_QUOTES, 'UTF-8')."' alt='' class='avatar-xl rounded-circle img-thumbnail'>
                                                                 </div>
-                                                                <h5 class='font-size-16 mb-1'><a href='#' class='text-dark'>".htmlentities($blog_status['username'], ENT_QUOTES, 'UTF-8')."</a></h5>
+                                                                <h5 class='font-size-16 mb-1'><a href='#' class='text-dark'>".htmlentities($blog_status['charname'], ENT_QUOTES, 'UTF-8')."</a></h5>
                                                                 <p class='text-muted mb-2'>".format_comment(htmlentities($blog_status['user_sig'], ENT_QUOTES, 'UTF-8'))."</p>   
                                                             </div>
                                                         </div>
@@ -299,7 +299,7 @@ echo "
                                                                 <div class='mx-auto mb-4'>
                                                                     <img src='".htmlentities($blog_status['user_avatar'], ENT_QUOTES, 'UTF-8')."' alt='' class='avatar-xl rounded-circle img-thumbnail'>
                                                                 </div>
-                                                                <h5 class='font-size-16 mb-1'><a href='#' class='text-dark'>".htmlentities($blog_status['username'], ENT_QUOTES, 'UTF-8')."</a></h5>
+                                                                <h5 class='font-size-16 mb-1'><a href='#' class='text-dark'>".htmlentities($blog_status['charname'], ENT_QUOTES, 'UTF-8')."</a></h5>
                                                                 <p class='text-muted mb-2'>".format_comment(htmlentities($blog_status['user_sig'], ENT_QUOTES, 'UTF-8'))."</p>   
                                                             </div>
                                                         </div>
@@ -334,7 +334,7 @@ echo "
                                                                 <div class='mx-auto mb-4'>
                                                                     <img src='".htmlentities($blog_status['user_avatar'], ENT_QUOTES, 'UTF-8')."' alt='' class='avatar-xl rounded-circle img-thumbnail'>
                                                                 </div>
-                                                                <h5 class='font-size-16 mb-1'><a href='#' class='text-dark'>".htmlentities($blog_status['username'], ENT_QUOTES, 'UTF-8')."</a></h5>
+                                                                <h5 class='font-size-16 mb-1'><a href='#' class='text-dark'>".htmlentities($blog_status['charname'], ENT_QUOTES, 'UTF-8')."</a></h5>
                                                                 <p class='text-muted mb-2'>".format_comment(htmlentities($blog_status['user_sig'], ENT_QUOTES, 'UTF-8'))."</p>   
                                                             </div>
                                                         </div>
@@ -369,7 +369,7 @@ echo "
                                                                 <div class='mx-auto mb-4'>
                                                                     <img src='".htmlentities($blog_status['user_avatar'], ENT_QUOTES, 'UTF-8')."' alt='' class='avatar-xl rounded-circle img-thumbnail'>
                                                                 </div>
-                                                                <h5 class='font-size-16 mb-1'><a href='#' class='text-dark'>".htmlentities($blog_status['username'], ENT_QUOTES, 'UTF-8')."</a></h5>
+                                                                <h5 class='font-size-16 mb-1'><a href='#' class='text-dark'>".htmlentities($blog_status['charname'], ENT_QUOTES, 'UTF-8')."</a></h5>
                                                                 <p class='text-muted mb-2'>".format_comment(htmlentities($blog_status['user_sig'], ENT_QUOTES, 'UTF-8'))."</p>   
                                                             </div>
                                                         </div>
@@ -404,7 +404,7 @@ echo "
                                                                 <div class='mx-auto mb-4'>
                                                                     <img src='".htmlentities($blog_status['user_avatar'], ENT_QUOTES, 'UTF-8')."' alt='' class='avatar-xl rounded-circle img-thumbnail'>
                                                                 </div>
-                                                                <h5 class='font-size-16 mb-1'><a href='#' class='text-dark'>".htmlentities($blog_status['username'], ENT_QUOTES, 'UTF-8')."</a></h5>
+                                                                <h5 class='font-size-16 mb-1'><a href='#' class='text-dark'>".htmlentities($blog_status['charname'], ENT_QUOTES, 'UTF-8')."</a></h5>
                                                                 <p class='text-muted mb-2'>".format_comment(htmlentities($blog_status['user_sig'], ENT_QUOTES, 'UTF-8'))."</p>   
                                                             </div>
                                                         </div>
@@ -439,7 +439,7 @@ echo "
                                                                 <div class='mx-auto mb-4'>
                                                                     <img src='".htmlentities($blog_status['user_avatar'], ENT_QUOTES, 'UTF-8')."' alt='' class='avatar-xl rounded-circle img-thumbnail'>
                                                                 </div>
-                                                                <h5 class='font-size-16 mb-1'><a href='#' class='text-dark'>".htmlentities($blog_status['username'], ENT_QUOTES, 'UTF-8')."</a></h5>
+                                                                <h5 class='font-size-16 mb-1'><a href='#' class='text-dark'>".htmlentities($blog_status['charname'], ENT_QUOTES, 'UTF-8')."</a></h5>
                                                                 <p class='text-muted mb-2'>".format_comment(htmlentities($blog_status['user_sig'], ENT_QUOTES, 'UTF-8'))."</p>   
                                                             </div>
                                                         </div>

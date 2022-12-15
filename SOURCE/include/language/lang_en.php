@@ -4,7 +4,7 @@
 // ************************************************************************************//
 // * Author: DerStr1k3r
 // ************************************************************************************//
-// * Version: 1.0
+// * Version: 1.1
 // *
 // * Copyright (c) 2022 DerStr1k3r. All rights reserved.
 // ************************************************************************************//
@@ -260,6 +260,7 @@ const REGISTER = "Register";
 const LOGIN = "Login";
 const LOGOUT = "Logout";
 const USERNAME = "Username";
+const CHARNAME = "Character Name";
 const EMAIL = "Email";
 const PASSWORD = "Password";
 const FACTION_RANK = "Faction Rank";
@@ -271,6 +272,7 @@ const INFO1 = "Enter Username";
 const INFO2 = "Enter Password";
 const INFO3 = "Enter Faction Rank";
 const INFO4 = "Enter E-Mail Address";
+const INFO5 = "Enter Character Name";
 const PROFILE_SETTINGS = "Settings";
 const PROFILE_ABOUT = "About";
 const PROFILE_PORTFOLIO = "Portfolio";

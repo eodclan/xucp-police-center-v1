@@ -17,6 +17,7 @@ SET time_zone = "+00:00";
 CREATE TABLE `xucp_police_accounts` (
   `id` int(11) NOT NULL,
   `username` varchar(64) NOT NULL DEFAULT 'N/A',
+  `charname` varchar(64) NOT NULL,  
   `email` varchar(64) NOT NULL,
   `password` varchar(256) NOT NULL,
   `user_faction_rank` int(11) NOT NULL DEFAULT 0,

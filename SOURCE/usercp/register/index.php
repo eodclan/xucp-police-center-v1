@@ -4,7 +4,7 @@
 // ************************************************************************************//
 // * Author: DerStr1k3r
 // ************************************************************************************//
-// * Version: 1.0
+// * Version: 1.1
 // * 
 // * Copyright (c) 2022 DerStr1k3r. All rights reserved.
 // ************************************************************************************//
@@ -38,12 +38,16 @@ echo "
 if(isset($_REQUEST['xucp_signup']))
 {
     $username	= strip_tags($_REQUEST['xucp_username']);
+    $charname	= strip_tags($_REQUEST['xucp_charname']);
     $email		= strip_tags($_REQUEST['xucp_email']);
     $password	= strip_tags($_REQUEST['xucp_password']);
     $faction_rank	= strip_tags($_REQUEST['xucp_faction_rank']);
 
     if(empty($username)){
         $errorMsg[]=MSG_14;
+    }
+    else if(empty($charname)){
+        $errorMsg[]=MSG_13;
     }
     else if(empty($email)){
         $errorMsg[]=MSG_13;
@@ -62,7 +66,7 @@ if(isset($_REQUEST['xucp_signup']))
         try
         {
             $select_stmt=$db->prepare("SELECT username, email FROM xucp_police_accounts 
-										WHERE username=:uname OR email=:uemail");
+										WHERE username=:xucp_username OR email=:xucp_email");
 
             $select_stmt->execute(array(':xucp_username'=>$username, ':xucp_email'=>$email));
             $row=$select_stmt->fetch(PDO::FETCH_ASSOC);
@@ -77,10 +81,11 @@ if(isset($_REQUEST['xucp_signup']))
             {
                 $new_password = password_hash($password, PASSWORD_BCRYPT);
 
-                $insert_stmt=$db->prepare("INSERT INTO xucp_police_accounts (username,email,password,user_faction_rank) VALUES
-																(:uname,:uemail,:upassword,:user_faction_rank)");
+                $insert_stmt=$db->prepare("INSERT INTO xucp_police_accounts (username,charname,email,password,user_faction_rank) VALUES
+																(:xucp_username,:xucp_charname,:xucp_email,:xucp_password,:xucp_faction_rank)");
 
                 if($insert_stmt->execute(array(	':xucp_username'	=>$username,
+                    ':xucp_charname'	=>$charname,
                     ':xucp_email'	=>$email,
                     ':xucp_password'=>$new_password,
                     ':xucp_faction_rank'=>$faction_rank))){
@@ -152,6 +157,14 @@ echo "
                                                 </div>      
                                             </div>
                     
+                                            <div class='mb-3'>
+                                                <label for='username' class='form-label'>".CHARNAME." *</label>
+                                                <input  type='text' name='xucp_charname' class='form-control' id='username' placeholder='".INFO5."' required>
+                                                <div class='invalid-feedback'>
+                                                    ".INFO5."
+                                                </div>  
+                                            </div>
+
                                             <div class='mb-3'>
                                                 <label for='username' class='form-label'>".USERNAME." *</label>
                                                 <input  type='text' name='xucp_username' class='form-control' id='username' placeholder='".INFO1."' required>
