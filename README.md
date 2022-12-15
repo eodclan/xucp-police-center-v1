@@ -1,10 +1,6 @@
 # xucp-police-center-v1
 In this xUser Police Center, it is a completely new development. This Free Version is for all GTA Roleplay Projects.
 
-#Developing Status:
-
-This system is currently under development!
-
 #Prerequisite for using the xUCP Police Center Free V1:
 
 1. MySQL servers
@@ -23,6 +19,7 @@ This system is currently under development!
   7. Fraktion Logs
   8. Road Traffic Office
   9. Site Settings
+ 10. Chief of Police Tools
 
  
 and more... 
