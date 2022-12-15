@@ -96,27 +96,27 @@ function site_navi_logged(): void
 									<li><a href='/staffcp/logbook/index.php' data-key='t-blog-grid'>".FACTION_LOGBOOK_HEADER."</a></li>
 									<li><a href='/staffcp/paragraph/index.php' data-key='t-blog-grid'>".PARAGRAPH_MANAGER_HEADER."</a></li>
 									<li><a href='/staffcp/users/index-control.php' data-key='t-blog-grid'>".CHIEF_USERCONTROL."</a></li>
-									<li><a href='/staffcp/news/index-control.php' data-key='t-blog-grid'>".NEWS_HEADER." ".CHIEF_CHANGE_USER."</a></li>
+									<li><a href='/staffcp/news/index.php' data-key='t-blog-grid'>".NEWS_HEADER." ".CHIEF_CHANGE_USER."</a></li>
 								</ul>
 							</li>";
     }
     echo "
 						</ul>";
-    if(intval($_SESSION['xucp_police_uname']['xucp_police_conf_upgrade_note']) == 1) {
-        echo "
+                    if(intval($_SESSION['xucp_police_uname']['xucp_police_conf_upgrade_note']) == 1) {
+                        echo "
                         <div class='card sidebar-alert border-0 text-center mx-4 mb-0 mt-5'>
                             <div class='card-body'>
                                 <div class='mt-4'>
-                                    <h5 class='alertcard-title font-size-16'>Unlimited Access installed</h5>
-                                    <p class='font-size-13'>Thank you for purchasing xUCP Police Center V1!</p>
-                                    <p class='font-size-10'>You can switch off this message in the site settings!</p>
+                                    <h5 class='alertcard-title font-size-16'>Unlimited Access</h5>
+                                    <p class='font-size-13'>Upgrade your Free Version, to select Pro Version.</p>
+                                    <a href='https://discord.gg/xg5mnYUWch' class='btn btn-primary mt-2'>Buy upgrade now</a>
                                 </div>
                             </div>
                         </div>";
-    } else {
-        // Remember that you can turn off this message!
-    }
-    echo "
+                    } else {
+                        // Even if you turn this off in the settings, you have the free version!
+                    }
+					echo "
                     </div>
                 </div>
             </div>";
@@ -147,21 +147,21 @@ function site_navi_nologged(): void
                                 </a>
                             </li>							
                         </ul>";
-    if(intval($_SESSION['xucp_police_uname']['xucp_police_conf_upgrade_note']) == 1) {
-        echo "
+                    if(intval($_SESSION['xucp_police_uname']['xucp_police_conf_upgrade_note']) == 1) {
+                        echo "
                         <div class='card sidebar-alert border-0 text-center mx-4 mb-0 mt-5'>
                             <div class='card-body'>
                                 <div class='mt-4'>
-                                    <h5 class='alertcard-title font-size-16'>Unlimited Access installed</h5>
-                                    <p class='font-size-13'>Thank you for purchasing xUCP Police Center V1!</p>
-                                    <p class='font-size-10'>You can switch off this message in the site settings!</p>
+                                    <h5 class='alertcard-title font-size-16'>Unlimited Access</h5>
+                                    <p class='font-size-13'>Upgrade your Free Version, to select Pro Version.</p>
+                                    <a href='https://discord.gg/xg5mnYUWch' class='btn btn-primary mt-2'>Buy upgrade now</a>
                                 </div>
                             </div>
                         </div>";
-    } else {
-        // Remember that you can turn off this message!
-    }
-    echo "
+                    } else {
+                        // Even if you turn this off in the settings, you have the free version!
+                    }
+					echo "
                     </div>
                 </div>
             </div>";
