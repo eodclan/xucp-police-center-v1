@@ -24,8 +24,8 @@ if($select_stmt->rowCount() > 0){
 
     try
     {
-        $dbsync=new PDO("mysql:host={$dbsync_host};dbname={$dbsync_name}",$dbsync_user,$dbsync_password);
-        $dbsync->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+        $db_sync_con=new PDO("mysql:host={$dbsync_host};dbname={$dbsync_name}",$dbsync_user,$dbsync_password);
+        $db_sync_con->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
     }
     catch(PDOEXCEPTION $e)
     {
