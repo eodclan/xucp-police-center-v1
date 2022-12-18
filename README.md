@@ -1,6 +1,11 @@
 # xucp-police-center-v1
 In this xUser Police Center, it is a completely new development. This Free Version is for all GTA Roleplay Projects.
 
+Search support?
+
+Join my discord server: https://discord.gg/xg5mnYUWch
+
+
 #Prerequisite for using the xUCP Police Center Free V1:
 
 1. MySQL servers
