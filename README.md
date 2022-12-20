@@ -5,6 +5,7 @@ Search support?
 
 Join my discord server: https://discord.gg/xg5mnYUWch
 
+Demopage: https://xucp-police.derstr1k3r.de/
 
 #Prerequisite for using the xUCP Police Center Free V1:
 
